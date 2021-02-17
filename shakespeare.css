@@ -66,3 +66,8 @@ th {
 td {
     background-color: whitesmoke;
 }
+
+.name:hover {
+    background-color: gold;
+    color: #134585;
+}
