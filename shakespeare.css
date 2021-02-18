@@ -16,6 +16,7 @@
     font-family: Arial, Helvetica, sans-serif;
     color: black;
     text-shadow: beige;
+    border: blanchedalmond;
 }
 
 .stage-direction:hover {
@@ -69,9 +70,9 @@ td {
 }
 
 .name:hover {
-    background-color: gold;
+
     color: #134585;
-    text-shadow: 2px 2px black;
+    text-shadow: 2px 2px 5px red;
 }
 
 img {
