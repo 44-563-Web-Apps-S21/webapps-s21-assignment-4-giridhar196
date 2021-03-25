@@ -48,26 +48,27 @@
     color: rgb(202, 29, 29);
 }
 
-table,
-th,
-td {
-    border: 3px solid black;
+table {
+    border: dashed 3px;
+    border-collapse: separate;
+}
+
+table.collapsing {
+    border: solid 3px;
     border-collapse: collapse;
-    width: auto;
-    margin: left;
-    text-align: center;
-    padding: 15px;
-    border-spacing: 5px;
-    background-color: whitesmoke;
+    outline: solid 2px lightcoral;
 }
 
+td,
 th {
-    background-color: forestgreen;
+    border: solid 1px;
+    text-align: center;
 }
 
-td {
-    background-color: whitesmoke;
+tr {
+    background-color: purple;
 }
+
 
 .name:hover {
 
